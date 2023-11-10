@@ -23,4 +23,4 @@ This is the website of set-up consulting display
 # Code made by Amiril Mukminin
 
 
-**Result Sample Website** ([https://main--regal-peony-b7d643.netlify.app/](https://main--regal-peony-b7d643.netlify.app/))
+**Result Sample Website** ([https://relaxed-blancmange-44696a.netlify.app/](https://relaxed-blancmange-44696a.netlify.app/))
