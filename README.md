@@ -3,6 +3,24 @@
 # This is the code of responsive HTML as Assignment study in week 2
 This is an assignment for "responsive HTML as Assignment study in week 2"
 ***
-The code is about HTML, CSS and Javasript. This code is A web application of Set-Up Consulting Web. Iin the code, user can join in Set-Up consulting to get training about GMP, HACCP Halal and Legal Product. In the web, user also can join as Set-Up Consulting member. After fill the form and submit, user will get a alert that user already success and welcome statement "Thank you for joining us". The web set to be responsive and can be opened in Tablet or gadget like samsung or iphone
+# Description
+Welcome to our project! This is a Set-Up Consulting Wbsite. It contain many program of food safety training. There Hazard Analysis Critical Control Point, Good Manufacturing Practices, Halal, and Legal Product. People can register training in website and contact Set-Up Consulting Company to held a food safety training. We hope you enjoy and we look forward to your contributions!
+***
+
+# Contributing
+We welcome any and all contributions! Here are some ways you can get started:
+1. GMP Training
+2. HACCP Training
+3. Halal Training
+4. Legal Product Compliance
+***
+
+# Set-Up Conculting web display
+This is the website of set-up consulting display
+
+![Set-UpConsulting](./Assets/Web-Set-up-cons.JPG)
+
+# Code made by Amiril Mukminin
+
 
 **Result Sample Website** ([https://main--regal-peony-b7d643.netlify.app/](https://main--regal-peony-b7d643.netlify.app/))
