@@ -1,8 +1,8 @@
 # DEPLOYMENT ASSIGNMENT
 ***
-This Project in Millestone was succesfully deployed using Netlify. User can acces the website of Setup Consulting which the web contain is about Food Safety Program. People can apply and register to get a in-house training or audit program. The website that people can access is : ([https://setupconsulting.web.id/](https://setupconsulting.web.id/))
+This Project in Millestone was succesfully deployed using Netlify. User can acces the website of Setup Consulting which the web contain is about Food Safety Program. People can apply and register to get a in-house training or audit program. The website that people can access is : ([https://pakjimbul.my.id/](https://pakjimbul.my.id/))
 
-![Set-UpConsulting](./week4/_Assets/Web-Set-up.JPG)
+![Set-UpConsulting](./_Assets/web_set-up.JPG)
 ***
 ## Deployment Process
 1. Go to ([https://www.netlify.com/](https://www.netlify.com/))
