@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A web application about Ciamis" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Amiril Mukminin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set-Up Consulting</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Link for icon hamburger -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link for icon footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="./index.html"><img src="./_Assets/Logo SC fix.png" alt="logo"></a></li>
+            <input type="checkbox" onclick="ubahMode()" id="checkbox_DM">
+            <p>Dark Mode</p>
+            <input type="checkbox" id="check">
+            <span class="menu-bar">
+                <li><a href="./index.html"><strong>Home</strong></a></li>
+                <li><a href="#sect-1"><strong>Who we Are</strong></a></li>
+                <li><a href="#sect-2"><strong>Program</strong></a></li>
+                <li><a href="#sect-4"><strong>Event</strong></a></li>
+                <li><a href="#sect-5"><strong>Register</strong></a></li>
+                <li><a href="#contact-us"><strong>Contact Us</strong></a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    <!-- Slide show image -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./_Assets/Flyer-web1-2.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./_Assets/Flyer-web3-2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./_Assets/Flyer-web4-2.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- Content -->
+    <main>
+        <section id="sect-1">
+            <!-- section 1 Expertise and Program (Section 1)-->
+            <div class="container">
+                <div id="one">
+                    <img src="./_Assets/expertise1.png" alt="expertise">
+                    <h1>Expertise</h1>
+                    <p>Set-Up Consulting is an institution of training, consulting, and audit which focus on 4
+                        expertise. Good Manufacturing Practices (GMP), Hazard Analysis Critical Control Point
+                        (HACCP), Halal Assurance, and Legal Product. Every single expertise is handled by trainer
+                        team, consultants, and auditors
+                        who
+                        tested and experienced on public trainings, in-house trainings, consultancy projects, and
+                        also
+                        audits or assessments in various local and multinational companies. </p>
+                </div>
+                <div id="two">
+                    <img src="./_Assets/program1.png" alt="Program">
+                    <h1>Program</h1>
+                    <p>Program on every expertise can be delivered as in-house trainings, public trainings,
+                        consultancy,
+                        and also audit/assessment. Some others programs may be customized programs i.e. Laboratory
+                        Management System, Calibration, Management of Document Control, Management Representative,
+                        System Gap Analysis, 5S/5R, Improvement System, and people assessment. </p>
+                </div>
+                <div id="three">
+                    <img src="./_Assets/Food-safety2.jpg" alt="food safety">
+                    <h1>Food Safety Compliance</h1>
+                    <p>When the FDA shows up for an inspection, you want your compliance assured. In addition to having
+                        a documented HACCP Food Safety Plan, we will ensure your facility has standard operating
+                        procedures in place for sanitation, cleaning, swabbing and lab testing.</p>
+                </div>
+                <div id="four">
+                    <img src="./_Assets/benefit.jpg" alt="Benefit Training">
+                    <h1>Benefit Training</h1>
+                    <p>There are many advantages of the food safety training program organized by Set-Up Consulting,
+                        such as: Intensive technical guidance, nationally recognized competency testing facilities,
+                        learning materials and training support equipment, training can be accessed online or offline,
+                        etc.</p>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <section id="sect-2">
+            <div class="container-program">
+                <!-- Specification type of training (section 2)-->
+                <div class="GMP">
+                    <img src="./_Assets/GMP.webp" alt="GMP">
+                    <h1>GMP Training</h1>
+                    <p>Set-Up Consulting is experts in providing GMP training. Good manufacturing practice (GMP) is a
+                        system for ensuring that products are consistently produced and controlled according to quality
+                        standards</p>
+                </div>
+                <div class="HACCP">
+                    <img src="./_Assets/HACCP.jpg" alt="HACCP">
+                    <h1>HACCP Training</h1>
+                    <p>Set-Up Consulting is experts in providing HACCP training. HACCP is a management system in which
+                        food safety is addressed through the analysis and control of biological, chemical, and physical
+                        hazards from raw material production, procurement and handling, to manufacturing, distribution
+                        and consumption of the finished product.</p>
+                </div>
+                <div class="Food-Handler">
+                    <img src="./_Assets/food-handler.png" alt="Food Handler">
+                    <h1>Food Handler Training</h1>
+                    <p>Set-Up Consulting is experts in providing Food Handler training. A food handler is anyone who
+                        works in a food business and who either handles food or touches surfaces that are likely to be
+                        in contact with food such as cutlery, plates and bowls.</p>
+                </div>
+                <div div class="Thermal">
+                    <img src="./_Assets/thermal.jpg" alt="Validation Thermal">
+                    <h1>Thermal Validation</h1>
+                    <p>Set-Up Consulting is experts in providing Thermal Validation training. Thermal validation is the
+                        process of validating / qualifying equipment and storage facilities to prove that they will
+                        create and maintain the temperatures they are designed for.</p>
+
+                </div>
+                <div class="Audit">
+                    <img src="./_Assets/audit.jpg" alt="Audit Internal">
+                    <h1>Food Safety Internal Audit</h1>
+                    <p>Set-Up Consulting is experts in providing Food Safety Internal Audit training. Internal food
+                        safety audits are systematic and independent assessments of your food safety practices,
+                        procedures and records. They are performed by your own staff or external consultants who are
+                        trained and qualified to audit your food safety system</p>
+                </div>
+                <!-- End container Program -->
+            </div>
+        </section>
+
+        <section id="sect-3">
+            <!-- Section 3 Selayang pandang -->
+            <div class="wrapper">
+                <div class="container-info">
+                    <div class="hero-section">
+                        <div class="gallery">
+                            <div class="image-section">
+                                <img src="./_Assets/gmp2.jpg" alt="GMP Info">
+                            </div>
+                            <div class="text-info">
+                                <h1>GMP</h1>
+                                <p>Good manufacturing practice guidelines provide guidance for manufacturing, testing,
+                                    and
+                                    quality assurance in order to ensure that a manufactured product is safe for human
+                                    consumption or use.
+                                </p>
+                                <a href="https://id.wikipedia.org/wiki/Cara_produksi_makanan_yang_baik"><strong>Read
+                                        more..</strong></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery">
+                            <div class="image-section">
+                                <img src="./_Assets/HACCP3.webp" alt="HACCP Info">
+                            </div>
+                            <div class="text-info">
+                                <h1>HACCP</h1>
+                                <p>HACCP is a systematic preventive approach to food safety from biological, chemical,
+                                    and
+                                    physical hazards in production processes that can cause the finished product to be
+                                    unsafe and designs measures to reduce these risks to a safe level.
+                                </p>
+                                <a href="https://id.wikipedia.org/wiki/Analisis_bahaya_dan_pengendalian_titik_kritis"><strong>Read
+                                        more..</strong></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery">
+                            <div class="image-section">
+                                <img src="./_Assets/Validasi-Thermal.jpg" alt="Validasi Thermal Info">
+                            </div>
+                            <div class="text-info">
+                                <h1>Thermal Validation</h1>
+                                <p>Thermal Validation is the process of validating / qualifying equipment and storage
+                                    facilities to prove that
+                                    they will create and maintain the temperatures they are designed for.
+                                </p>
+                                <a href="https://id.wikipedia.org/wiki/Analisis_bahaya_dan_pengendalian_titik_kritis"><strong>Read
+                                        more..</strong></a>
+                            </div>
+                        </div>
+
+                        <div class="gallery">
+                            <div class="image-section">
+                                <img src="./_Assets/audit-internal.jpg" alt="Audit Internal Info">
+                            </div>
+                            <div class="text-info">
+                                <h1>Internal Audit</h1>
+                                <p>Internal food safety audits are systematic and independent assessments of your food
+                                    safety practices, procedures and records.
+                                </p>
+                                <a href="https://id.wikipedia.org/wiki/Staphylococcus_aureus_resisten-metisilin"><strong>Read
+                                        more..</strong></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Section 3 Testiomoni event -->
+        <section id="sect-4">
+            <div id="ig-containt">
+                <img src="./_Assets/IG2.png" alt="IG">
+                <h3 class="ig-text">@setupconsulting</h3>
+            </div>
+            <div class="container-event">
+                <div class="myevent fades">
+                    <img src="./_Assets/Offline-subang1.jpg" alt="kegiatan offline di Subang" style="width:100%">
+                    <div class="event-text">Caption Text</div>
+                </div>
+
+                <div class="myevent fades">
+                    <img src="./_Assets/Offline-subang3.jpg" alt="kegiatan online materi" style="width:100%">
+                    <div class="event-text">Caption Text Two</div>
+                </div>
+                <div class="myevent fades">
+                    <img src="./_Assets/pelatihan-online2.jpg" alt="kegiatan offline di Subang 2" style="width:100%">
+                    <div class="event-text">Caption Text Three</div>
+                </div>
+                <div class="myevent fades">
+                    <img src="./_Assets/pelatihan-online3.jpg" alt="kegiatan online" style="width:100%">
+                    <div class="event-text">Caption Text Four</div>
+                </div>
+
+                <!-- <a class="ev-prev" onclick="plusSlides(-1)">❮</a>
+                <a class="ev-next" onclick="plusSlides(1)">❯</a> -->
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="ev-dot" onclick="currentSlide(1)"></span>
+                <span class="ev-dot" onclick="currentSlide(2)"></span>
+                <span class="ev-dot" onclick="currentSlide(3)"></span>
+                <span class="ev-dot" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+
+        <section id="sect-5">
+            <div class="register">
+                <h2>Register Form</h2>
+                <div id="user-form">
+                    <form action="#">
+                        <fieldset>
+                            <legend>Register</legend>
+                            <div class="form-user-regis">
+                                <!-- First Name -->
+                                <label for="fname">First Name:</label><br>
+                                <input type="text" id="fname" placeholder=" First Name"><br><br>
+                                <!-- Last Name -->
+                                <label for="lname">Last name:</label><br>
+                                <input type="text" id="lname" placeholder="Last name"><br><br>
+                                <!-- Birthday -->
+                                <label for="birthday">Birthday:</label><br>
+                                <input type="date" id="birthday" name="birthday"><br><br>
+                                <!-- Email -->
+                                <label for="email">Enter your email:</label><br>
+                                <input type="email" id="email" name="email"><br><br>
+                                <p>What training you want to join?</p>
+                                <!-- option 1 -->
+                                <input type="radio" id="gmp" name="gmp" value="gmp">
+                                <label for="gmp">GMP</label>
+
+                                <!-- option 2 -->
+                                <input type="radio" id="haccp" name="haccp" value="haccp">
+                                <label for="haccp">HACCP</label>
+
+                                <!-- option 3 -->
+                                <input type="radio" id="food-h" name="food-h" value="food-h">
+                                <label for="food-h">Food Handler</label>
+                                <br>
+                                <!-- option 4 -->
+                                <input type="radio" id="val-thermal" name="val-thermal" value="val-thermal">
+                                <label for="val-thermal">Thermal Validation</label>
+
+                                <!-- option 5 -->
+                                <input type="radio" id="audit" name="audit" value="audit">
+                                <label for="audit">Food Safety Internal Audit</label><br><br>
+
+                                <p>Tell us what do you think about Food Safety?</p>
+                                <textarea id="text-ciamis" name="text-ciamis" rows="4" cols="50"></textarea><br>
+                                <br>
+                                <button type="submit" onclick="myFunction()">Sign Up</button>
+
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Whatsapp link -->
+        <section>
+            <div class="wa-float">
+                <a href="https://wa.me/6281287411790"><img src="./_Assets/WhatsApp.png" alt="Whatsapp"></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- adreess -->
+    <footer class="footer" id="contact-us">
+        <div class="footer-left">
+            <div class="sc">
+                <img src="./_Assets/Logo SC fix.png" alt="Logo SC">
+            </div>
+            <p class="footer-copyright">copyright: Set-Up Consulting</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Indonesia</span> Ciampea, Bogor</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+62 812 8741 1790</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">official.setupconsulting@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-about">
+                <span>About</span>
+                This Channel about training of food safety training. The training like GMP, HACCP, Food Handler, Thermal
+                Validation and Food safety internal audit. Let's grow up together with us!
+            </p>
+
+            <div class="footer-media">
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- script JS -->
+    <script src="index.js"></script>
+</body>
+
+</html>
